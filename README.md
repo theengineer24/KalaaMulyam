@@ -1,5 +1,4 @@
 # KalaaMulyam
-# MakerFirst
 
 **Artisans get paid for their hours first.**
 
