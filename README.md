@@ -159,6 +159,10 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env      # add your API keys
 pytest                    # run the pricing tests
+
+pip install -r requirements.txt
+pytest
+uvicorn app:app --reload      # from the repo root, then open /docs
 ```
 
 ## Tech stack
